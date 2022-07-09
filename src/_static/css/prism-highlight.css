@@ -1,0 +1,212 @@
+:root {
+  --Pygments-Comment-Single: #8f5902;
+  --Pygments-Comment-Preproc: #8f5902;
+  --Pygments-Generic-Deleted: #a40000;
+  --Pygments-Generic-Inserted: #00A000;
+  --Pygments-Keyword: #204a87;
+  --Pygments-Keyword-Constant: #204a87;
+  --Pygments-Keyword-Declaration: #204a87;
+  --Pygments-Keyword-Reserved: #204a87;
+  --Pygments-Keyword-Type: #204a87;
+  --Pygments-Literal-Number-Float: #0000cf;
+  --Pygments-Literal-Number-Hex: #0000cf;
+  --Pygments-Literal-String-Char: #4e9a06;
+  --Pygments-Literal-String-Interpol: #4e9a06;
+  --Pygments-Literal-String-Other: #4e9a06;
+  --Pygments-Literal-String-Regex: #4e9a06;
+  --Pygments-Literal-String-Single: #4e9a06;
+  --Pygments-Literal-String-Symbol: #4e9a06;
+  --Pygments-Name: #000;
+  --Pygments-Name-Attribute: #c4a000;
+  --Pygments-Name-Builtin: #204a87;
+  --Pygments-Name-Decorator: #5c35cc;
+  --Pygments-Name-Entity: #ce5c00;
+  --Pygments-Name-Namespace: #000;
+  --Pygments-Name-Variable-Class: #000;
+  --Pygments-Name-Tag: #204a87;
+  --Pygments-Operator: #ce5c00;
+  --Pygments-Punctuation: #000;
+}
+
+.token.atrule {
+  color: var(--Pygments-Keyword);
+  font-weight: bold;
+}
+
+.token.attr-name {
+  color: var(--Pygments-Name-Attribute);
+}
+
+.token.attr-value {
+  color: var(--Pygments-Literal-String-Single);
+}
+
+.token.punctuation.attr-equals {
+  color: var(--Pygments-Operator);
+}
+
+.token.attribute {
+  color: var(--Pygments-Name-Tag);
+  font-weight: bold;
+}
+
+.token.boolean {
+  color: var(--Pygments-Keyword-Constant);
+}
+
+.token.builtin {
+  color: var(--Pygments-Keyword-Type);
+  font-weight: bold;
+}
+
+.token.cdata {
+  color: var(--Pygments-Comment-Single);
+  font-style: italic;
+}
+
+.token.char {
+  color: var(--Pygments-Literal-String-Char);
+}
+
+.token.class {
+  color: var(--Pygments-Keyword-Declaration);
+  font-weight: bold;
+}
+
+.token.class-name {
+  color: var(--Pygments-Name-Variable-Class);
+}
+
+.token.color {
+  color: var(--Pygments-Keyword-Constant);
+  font-weight: bold;
+}
+
+.token.comment {
+  color: var(--Pygments-Comment-Single);
+  font-style: italic
+}
+
+.token.constant {
+  color: var(--Pygments-Name);
+}
+
+.token.deleted {
+  color: var(--Pygments-Generic-Deleted);
+}
+
+.token.doctype {
+  color: var(--Pygments-Comment-Preproc);
+  font-style: italic;
+}
+
+.token.entity {
+  color: var(--Pygments-Name-Entity);
+}
+
+.token.function {
+  color: var(--Pygments-Name-Builtin);
+}
+
+.token.hexcode {
+  color: var(--Pygments-Literal-Number-Hex);
+  font-weight: bold;
+}
+
+.token.important {
+  color: var(--Pygments-Keyword-Constant);
+  font-weight: bold;
+}
+
+.token.interpolation-punctuation.punctuation {
+  color: var(--Pygments-Literal-String-Interpol);
+  font-weight: normal;
+}
+
+.token.inserted {
+  color: var(--Pygments-Generic-Inserted);
+}
+
+.token.keyword {
+  color: var(--Pygments-Keyword-Reserved);
+  font-weight: bold;
+}
+
+.token.namespace {
+  color: var(--Pygments-Name-Namespace);
+}
+
+.token.number {
+  color: var(--Pygments-Literal-Number-Float);
+  font-weight: bold;
+}
+
+.token.operator {
+  color: var(--Pygments-Operator);
+  font-weight: bold;
+}
+
+.token.prolog {
+  color: var(--Pygments-Comment-Preproc);
+  font-style: italic;
+}
+
+.token.property {
+  color: var(--Pygments-Name-Tag);
+  font-weight: bold;
+}
+
+.token.pseudo-class {
+  color: var(--Pygments-Name-Decorator);
+}
+
+.token.pseudo-element {
+  color: var(--Pygments-Name-Decorator);
+}
+
+.token.punctuation {
+  color: var(--Pygments-Punctuation);
+  font-weight: bold;
+}
+
+.token.regex {
+  color: var(--Pygments-Literal-String-Regex);
+}
+
+.token.selector {
+  color: var(--Pygments-Name-Tag);
+  font-weight: bold;
+}
+
+.token.string {
+  color: var(--Pygments-Literal-String-Single);
+}
+
+.token.symbol {
+  color: var(--Pygments-Literal-String-Symbol);
+}
+
+.token.tag {
+  color: var(--Pygments-Name-Tag);
+}
+
+.token.tag>.token.tag {
+  font-weight: bold;
+}
+
+.token.tag>.token.class-name {
+  color: var(--Pygments-Name-Tag);
+}
+
+.token.unit {
+  color: var(--Pygments-Keyword-Type);
+  font-weight: bold;
+}
+
+.token.url {
+  color: var(--Pygments-Literal-String-Other);
+}
+
+.token.variable {
+  color: var(--Pygments-Name-Variable);
+}
